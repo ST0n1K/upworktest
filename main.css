@@ -1,0 +1,149 @@
+body {
+    background-color: #a4b6c7!important;
+}
+.navbar {
+    background-color: #44617d!important;
+}
+.nav-main.navbar li:nth-child(1) a, .nav-main.navbar li:nth-child(2) a, .nav-main.navbar li:nth-child(3) a, .nav-main.navbar li:nth-child(4) a, .nav-main.navbar li:nth-child(5) a  {
+    font-size: 36px;
+    font-family: "Candara";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    -moz-transform: matrix( 0.56313066469983,0,0,0.50616034093782,0,0);
+    -webkit-transform: matrix( 0.56313066469983,0,0,0.50616034093782,0,0);
+    -ms-transform: matrix( 0.56313066469983,0,0,0.50616034093782,0,0);
+    z-index: 277;
+}
+.nav-main.navbar li:nth-child(5) a {
+    background-color: #324c66;
+    border: none;
+    color: #fff;
+    padding: 15px;
+    font-size: 32px;
+    width: 500px;
+}
+.nav-main.navbar li:nth-child(4) {
+    margin-left: -50px;
+}
+.nav-main.navbar li:nth-child(1):hover a, .nav-main.navbar li:nth-child(2):hover a, .nav-main.navbar li:nth-child(3):hover a, .nav-main.navbar li:nth-child(4):hover a {
+    border-bottom: 5px solid #324c66;
+}
+.nav-main.navbar li:nth-child(1) a, .nav-main.navbar li:nth-child(2) a, .nav-main.navbar li:nth-child(3) a, .nav-main.navbar li:nth-child(4) a {
+    border-bottom: 5px solid #44617d;
+}
+.left-part input {
+    background: url(img/search_dark.png) no-repeat scroll 15px 7px;
+    background-size: 10%;
+    padding-left:50px;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+.card-body {
+    background-color: #d2dbe3;
+}
+.card-body a {
+    font-size: 16px;
+    font-family: "Candara";
+    color: rgba(0, 0, 0, 0.749);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    -moz-transform: matrix( 0.4369293122811,0,0,0.42394660073786,0,0);
+    -webkit-transform: matrix( 0.4369293122811,0,0,0.42394660073786,0,0);
+    -ms-transform: matrix( 0.4369293122811,0,0,0.42394660073786,0,0);
+}
+.card-body a:first-child {
+    margin-right: 40%;
+}
+.card-body #push {
+    margin-right: 5%;
+}
+.card-title {
+    font-size: 16px;
+    font-family: "Candara";
+    font-weight: bold;
+    margin-bottom: 0!important;
+    padding: 5px 0;
+}
+.card {
+    margin-bottom: 30px;
+}
+.pricing {
+    width: 100%;
+    margin-bottom: 60px;
+}
+.card-sun .card-body {
+    height: 150px;
+}
+.right-part {
+    background-color: #bbc8d5;
+}
+.right-part img {
+    width: 18%;
+    margin-right: 16px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.right-part img:nth-child(5n) {
+    margin-right: 0;
+}
+.container {
+    margin-top: 5%;
+}
+
+@media screen and (max-width: 1024px) {
+    .nav-main li a {
+        font-size: 15pt!important;
+    }
+    .card-body a {
+        font-size: 9pt;
+    }
+    .right-part img {
+        width: 15%;
+        margin-right: 35px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .nav-main li a {
+        font-size: 14pt!important;
+    }
+    .nav-main.navbar li:nth-child(4) {
+        margin: 0!important;
+    }
+    .nav-main.navbar li:nth-child(5) {
+        margin: 0!important;
+        width: 200px;
+    }
+    .nav-main.navbar li:nth-child(5) a {
+        width: 200px;
+    }
+    .card-body a {
+        font-size: 18pt;
+        display: block;
+    }
+    .card-body a:first-child {
+        margin: 0;
+    }
+    .right-part img {
+        width: 13%;
+        margin-right: 40px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .nav-main.navbar li:nth-child(5) {
+        margin-left: 25%!important;
+    }
+    .left-part input {
+        background-size: 7%;
+    }
+    .right-part img {
+        width: 25%;
+        margin-right: 40px;
+    }
+    .right-part img:nth-child(5n) {
+        margin-right: 40px;
+    }
+}
